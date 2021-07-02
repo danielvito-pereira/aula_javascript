@@ -1,8 +1,37 @@
 function Click(){
-    alert("Obrigado por dar esse Click ")
+    document.getElementById("tanks").innerHTML ="Obrigado por clicar ";;
+    //alert("Obrigado por dar esse Click ")
+}
+
+function redire() {
+    window.open("https://www.youtube.com/");//abre o site em uma nova guia 
+    //window.location.href="https://www.youtube.com/";   //abre na mesma guia 
+}
+
+function passar() {
+    document.getElementById("pase").innerHTML="Valeu!!"
+    
+}
+
+function voltar() {
+    document.getElementById("pase").innerHTML="Passe cursor aqui!"
+}
+function passarr(elemento) {
+    elemento.innerHTML="não era necessario mudar o nome da function pois quando estou utilizando esse metodo ele funcionará independente do id do elemento "
+    
+}
+function voltarr(elemento) {
+    elemento.innerHTML="outra forma de fazer "
+}
+
+function load() {
+    alert("carregada ")
 }
 
 
+function change(elemento){//consegue coletar o valor do elemento.
+    console.log(elemento.value)
+}
 /*
 function soma(n1,n2) {
     return n1 +n2;

@@ -6,9 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Minha página</title>
 </head>
-<body>
+<body onload="load()">
 
     <button type="button" onclick="Click()">click aqui </button>
+    <h3 id="tanks" onclick="redire()"></h3>
+
+    <p id="pase" onmouseover="passar()" onmouseout="voltar()">Passa seu cursor aqui vem vem vem</p>
+
+    <p id="pase2" onmouseover="passarr(this)" onmouseout="voltarr(this)">Passa seu cursor aqui vem vem vem</p>
+
+
+
+
+
+    <select name="" id="" onchange="change()">
+        <option value="1"> Valor 1</option>
+        <option value="2">valor 2</option>
+        <option value="3">Valor 3</option>
+    </select>
  <script src="/scripts/main.js"></script>
 </body>
 </html>
